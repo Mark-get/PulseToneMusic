@@ -15,7 +15,6 @@ const prepareHeaders = ()=>{
     if (!apiKey) return undefined
         return {
             'api-key': apiKey
-
     }
 }
 

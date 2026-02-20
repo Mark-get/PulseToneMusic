@@ -7,6 +7,5 @@ export function useTracks(){
     useEffect(() => {
         getTracks().then(json => setTracks(json.data));
     } ,[]);
-
     return {tracks};
 }
