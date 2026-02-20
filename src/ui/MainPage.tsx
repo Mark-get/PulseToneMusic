@@ -12,6 +12,7 @@ export function MainPage () {
     return (
         <div>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h1>MUSIC pulseTOne</h1>
                 <TracksList
                     selectedTrackId={trackId}
                     onTrackSelect={handleTrackSelect}/>
