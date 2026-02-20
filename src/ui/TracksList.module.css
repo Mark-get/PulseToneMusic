@@ -1,0 +1,19 @@
+.track{
+    border: 1px solid #747bff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.track:hover{
+    background-color: #0c74dc;
+    transition: 0.5s;
+}
+
+.tracks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.track.selected{
+    border-color: rgba(149, 7, 149, 0.73);
+}
