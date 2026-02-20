@@ -12,13 +12,11 @@ type GetTrackDetailsOutput = {
 
 const prepareHeaders = ()=>{
     const apiKey = import.meta.env.VITE_API_KEY
-    if (!apiKey) {return undefined}
-    else{
+    if (!apiKey) return undefined
         return {
             'api-key': apiKey
-        }
-    }
 
+    }
 }
 
 export const getTrack = (trackId: string) => {
