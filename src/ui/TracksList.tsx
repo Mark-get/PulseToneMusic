@@ -36,7 +36,6 @@ export function TracksList( {selectedTrackId, onTrackSelect}: Props) {
     <ul className={styles.tracks}>
         {
             tracks.map((track) => {
-
                 return (
                     <TrackItem key={track.id}
                                track={track}
